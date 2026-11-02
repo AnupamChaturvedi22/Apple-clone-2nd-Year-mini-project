@@ -1,748 +1,757 @@
 .head1 {
-    position: sticky;
-    top: 0px;
-    background-color: rgba(255, 255, 255, 0.799);
-    z-index: 1;
-  }
+  position: sticky;
+  top: 0px;
+  background-color: rgba(255, 255, 255, 0.799);
+  z-index: 1;
+}
+
+
+.navbar a {
+  color: rgba(255, 255, 255, 0.76);
+  padding-top: 2px;
+  padding-bottom: 2px;
+  text-align: center;
+  font-size: smaller;
+  font-weight: lighter;
+}
+
+.p{
+  background-color: white;
+}
+
+.l {
+  padding-left: 20%;
+}
+
+.r {
+  padding-right: 20%;  
+}
+
+.para {
+  color: whitesmoke;
+  background-color: rgb(31, 30, 30);
+  text-align: center;
+  font-size: smaller;
+  margin-bottom: 0px;
+  font-weight: 600;
+}
+.responsive {
+width: 100%;
+height: auto;
+}
+/* image 1 and image 2*/
+.d1 {
+  position: relative;
+  height:auto;
+  width: auto;
+  background-size: cover;
+  cursor: pointer;
+}
+.d2{
+  position: relative;
+  margin-top: 7px;
+  height:auto;
+  width: auto;
+  background-size: cover;
+}
+.buttons{
+  position:absolute;
+  bottom: 15%; 
+  left: 50%; 
+  transform: translateX(-50%); 
+  display: flex;
+  gap: 12px; 
+}
+.b {
+  padding: 10px 20px;
+  font-size: 17px;
+  background-color: rgb(20, 121, 222);
+  border-color: transparent;
+  color: white;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.b1 {
+  background-color: transparent;
+  color: rgb(20, 121, 222);
+  border-color: rgb(20, 121, 222);
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-size: 17px;
+  font-weight:normal;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-width:1px;
+}
+.b1:hover {
+  background-color: rgb(20, 121, 222);
+  color: white;
+}
+/* image 1 and image 2 buttons */
+.d3{
+  margin-top: 7px;
+  height:auto;
+  width: auto;
+  background-size: cover;
+}
+.c1{
+  margin-top: 7px;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+/* image4 */
+.d4{
+  position: relative;
+  margin-left:10px ;
+  height:auto;
+  width: auto;
+  background-size: cover;
+}
+.buttons1{
+  position:absolute;
+  bottom: 70%; 
+  left: 50%; 
+  transform: translateX(-50%); 
+  display: flex;
+  gap: 12px;
+  height: 5px; 
+}
+.b2{
+  padding: 7px 10px;
+  font-size: 15px;
+  background-color: rgb(20, 121, 222);
+  border-color: transparent;
+  color: white;
+  border-radius: 30px;
+  cursor: pointer;
+  margin: auto;
+}
+.b3{
+  background-color: transparent;
+  color: rgb(20, 121, 222);
+  border-color: rgb(20, 121, 222);
+  border-radius: 30px;
+  padding: 7px 14px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-width:1px;
+  margin: auto;
+}
+.b3:hover {
+  background-color: rgb(20, 121, 222);
+  color: white;
+}
+/* image4*/
+/* image5 */
+.d5{
+  position: relative;
+  margin-left:10px ;
+  height:auto;
+  width: auto;
+  background-size: cover;
+}
+.buttons2{
+  position:absolute;
+  bottom: 13%; 
+  left: 50%; 
+  transform: translateX(-50%); 
+  display: flex;
+  gap: 12px;
+  height: 5px; 
+}
+.b4{
+  padding: 7px 10px;
+  font-size: 15px;
+  background-color: rgb(20, 121, 222);
+  border-color: transparent;
+  color: white;
+  border-radius: 30px;
+  cursor: pointer;
+  margin: auto;
+}
+.b5{
+  background-color: transparent;
+  color: rgb(20, 121, 222);
+  border-color: rgb(20, 121, 222);
+  border-radius: 30px;
+  padding: 7px 14px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-width:1px;
+  margin: auto;
+}
+.b5:hover {
+  background-color: rgb(20, 121, 222);
+  color: white;
+}
+/* image5 */
+/* image6 and image7 */
+.d6{
+  position: relative;
+  margin-left:10px ;
+  height:auto;
+  width: auto;
+  background-size: cover;
+}
+.d7{
+  position: relative;
+  margin-left:10px ;
+  height:auto;
+  width: auto;
+  background-size: cover;
+}
+.buttons3{
+  position:absolute;
+  bottom: 72%; 
+  left: 50%; 
+  transform: translateX(-50%); 
+  display: flex;
+  gap: 12px;
+  height: 5px; 
+}
+.b6{
+  padding: 7px 10px;
+  font-size: 15px;
+  background-color: rgb(20, 121, 222);
+  border-color: transparent;
+  color: white;
+  border-radius: 30px;
+  cursor: pointer;
+  margin: auto;
+}
+.b7{
+  background-color: transparent;
+  color: rgb(20, 121, 222);
+  border-color: rgb(20, 121, 222);
+  border-radius: 30px;
+  padding: 7px 14px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-width:1px;
+  margin: auto;
+}
+.b7:hover {
+  background-color: rgb(20, 121, 222);
+  color: white;
+}
+.d8{
+  position: relative;
+margin-left:10px ;
+height:auto;
+width: auto;
+background-size: cover;
+}
+/* image6 and image7 and image8*/
+.d9{
+margin-left:10px ;
+height:auto;
+width: auto;
+background-size: cover;
+}
+.para1{
+  background-color:whitesmoke;
+  font-size: small ;
+  color: gray;
+  text-align: left;
+  padding: 50px 200px 200px;
+  line-height: 15px;
+  margin-bottom: 0px;
+}
+.footer-container {
   
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-left: 200px;
+  padding-right: 100px;
+}
+.footer-column {
+  flex: 1;
+  min-width: 180px;
+}
+.footer-column h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #333;
+}
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer-column ul li {
+  margin-bottom: 5px;
+}
+.footer-column ul li a {
+  text-decoration: none;
+  color: #837c7c;
+  font-size: 14px;
+}
+.footer-column ul li a:hover {
+  text-decoration: underline;
+}
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 12px;
+  color: #666;
+}
+.footer-bottom p {
+  margin: 5px 0;
+}
+.footer-bottom a {
+  text-decoration: none;
+  color: #0066cc;
+}
+.footer-bottom a:hover {
+  text-decoration: underline;
+}
+.carousel{
+  margin-top: 10px;
+  padding: 0px 50px 0px 50px;
+}
+
+
+
+
+
+
+
+
+/* Only one page visible at a time (controlled by display() in the HTML) */
+#section2 {
+  display: none;
+}
+
+
+.head2 {
+  top: 0px;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.navbar {
+
+  background-color: rgba(0, 0, 0, 1);
+
+}
+
+.anc {
+  color: #fff;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  text-align: center;
+  font-size: small;
+  font-weight: 100;
+}
+
+
+.bii {
+  margin-bottom: 4px;
+}
+
+.ancl {
+  /* apple icon */
+  padding-left: 20%;
+
+  color: #fff;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  text-align: center;
+  font-size: small;
+  font-weight: 100;
+}
+
+.ancr {
+  /* bag-fill icon */
+  padding-right: 20%;
+
+  color: #fff;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  text-align: center;
+  font-size: small;
+  font-weight: 100;
+
+}
+
+.div1 {
+  background-color: rgb(31, 30, 30);
+  height: 42px;
+}
+
+.para12 {
+  /* text-align: center; */
+  /* color: #fbfbfd; */
+  padding-top: 8px;
+
+  color: whitesmoke;
+  background-color: rgb(31, 30, 30);
+  text-align: center;
+  font-size: small;
+  margin-bottom: 0px;
+  font-weight: 600;
+
+}
+
+.i1 {
+  background-image: url(hero16pro.jpg);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding-bottom: 10vh;
+}
+
+.btn1 {
+  height: 40px;
+  width: 60px;
+  border-radius: 40px;
+  background-color: rgb(20, 121, 222);
+  border: transparent;
+  color: #fff;
+  /* margin-left: 102vh; */
+  /* margin-top: 83vh; */
+  padding: 10px;
+
+}
+
+.i2 {
+  height: 10vh;
+  width: 100%;
+  background-color: black;
+}
+
+.i3 {
+  height: 30vh;
+  width: 100%;
+  background-color: rgb(31, 30, 30);
+  display: flex;
+  /* justify-content: end; */
+}
+
+.i3 h1 {
+  color: #fff;
+  font-size: 8vh;
+  padding-left: 10vh;
+  padding-top: 10vh;
+}
+
+.i3 a {
+  padding-left: 80vh;
+  padding-top: 13vh;
+  font-size: 20px;
+  /* justify-content: end; */
+}
+
+.bi{
+  margin-left: 4px;
+}
+
+.i4 {
+  height: 135vh;
+  width: 100%;
+  background-color: rgb(31, 30, 30);
+  margin-top: -10px;
+}
+
+#carouselExampleCaptions {
+
+  padding-top: 30px;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-bottom: 40px;
+  /* object-fit: cover; */
+
+}
+
+.d-block1{
   
-  .navbar a {
-    color: rgba(255, 255, 255, 0.76);
-    padding-top: 2px;
-    padding-bottom: 2px;
-    text-align: center;
-    font-size: smaller;
-    font-weight: lighter;
-  }
+  border-radius: 15vh;
+}
+.i5 {
+  height: 140vh;
+  width: 100%;
+  background-color: black;
+}
+
+.i5 h1 {
+  color: #fff;
+  font-size: 8vh;
+  padding-left: 10vh;
+  padding-top: 10vh;
+}
+
+.ip {
+  width: 300px;
+  height: 500px;
+  margin-top: 8%;
+  margin: auto;
+
+}
+
+.i5 p {
+  font-size: x-small;
+  color: #fff;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.i6{
+  display: flex;
+  justify-content: center;
+  margin-left: 80vh;
+  margin-right: 80vh;
+}
+.i6b1{
+border-radius: 30px;
+height: 50px;
+width: 155px;
+display: flex;
+margin: auto;
+background-color: rgb(31, 30, 30);
+}
+
+
+.i6b2{
+width: 155px;
+border-radius: 30px;
+height: 50px;
+/* display: flex; */
+/* margin: auto; */
+background-color:#fff;
+border: transparent;
+color: #2b2a2a;
+padding: auto;
+padding-bottom: 5px;
+}
+
+
+.i7{
+  height: 10vh;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+.i7 h1{
+  font-size: 60px;
+  color: beige;
+  font-weight: 700;
+}
+
+.i8{
+  height: 10vh;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  /* padding-top: 10px; */
+}
+
+.i8 h1{
   
-  .p{
-    background-color: white;
-  }
-  
-  .l {
-    padding-left: 20%;
-  }
-  
-  .r {
-    padding-right: 20%;  
-  }
-  
-  .para {
-    color: whitesmoke;
-    background-color: rgb(31, 30, 30);
-    text-align: center;
-    font-size: smaller;
-    margin-bottom: 0px;
-    font-weight: 600;
-  }
-  .responsive {
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: -2px;
+  /* color: rgb(245, 224, 205); */
+  border-color: rgb(213, 135, 75);
+  /* border: 2px; */
+  filter: drop-shadow(0px 5px 20px rgb(248, 156, 128));
+  /* text-shadow: 0px 10px 25px rgb(213, 135, 75); */
+  text-shadow:0px 0px 12px  rgb(245, 162, 137) ;
+}
+
+.i9{
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+}
+
+.i9 img{
+  margin-top: 10vh;
+  height: 90% ;
+  width: 100%;
+}
+
+.i10{
+  background-color: black;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+}
+
+.i10p1{
+  text-align: left;
+  padding-top: 30vh;
+  padding-left: 45vh ;
+  padding-right:15vh ;
+  font-weight: 700;
+  color: gray;
+}
+
+h5 a{
+  color: #fff;
+}
+
+.i10p2{
+  text-align: right;
+  padding-top: 30vh;
+  padding-left: 15vh ;
+  padding-right:45vh ;
+  font-weight: 700;
+  color: grey;
+}
+
+.i10p3{
+  text-align: left;
+  /* padding-top: 30vh; */
+  padding-left: 45vh ;
+  padding-right:15vh ;
+  font-weight: 700;
+  color: gray;
+}
+
+.i10p4{
+  text-align: right;
+  /* padding-top: 30vh; */
+  padding-left: 15vh ;
+  padding-right:45vh ;
+  font-weight: 700;
+  color: grey;
+}
+
+.i11{
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  /* soft glow behind the cards (replaces the heavy drop-shadow filter) */
+  background: radial-gradient(ellipse 45% 55% at 50% 50%, rgba(247, 200, 186, 0.16), rgba(0, 0, 0, 0) 70%), #000;
+}
+/* corousel */
+.i11 .container{
+  width: 100%;
+  max-width: none;          /* was a fixed 550px, which clipped the 2nd card */
+  min-height: 10vh;
+  margin: 0;
+  padding: 0;
+}
+
+.i11 .container-d{
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: max-content;
+  gap: 1.2rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  /* lets the first and last card sit in the centre of the screen */
+  padding: 0 calc(50% - min(30vh, 40vw));
+  scroll-padding: 0 calc(50% - min(30vh, 40vw));
+}
+
+.container-d::-webkit-scrollbar{
+  display: none;
+}
+.carousel1{
+  scroll-snap-align: center;
+  box-sizing: border-box;
+  height: 70vh;
+  width: min(60vh, 80vw);
+  background-color: transparent;
+  color: rgb(188, 135, 102);
+  border-radius: 20px;
+}
+.carousel1:empty{
+  display: none;            /* the leftover empty 5th card */
+}
+
+article h6{
+  text-align: left;
+  margin-left: 25px;
+  margin-right: 80px;
+  margin-top: 10px;
+}
+.image5{
+  border-radius: 40px;
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+}
+
+
+.i12{
+  background-color: black;
+  height: 55vh;
+  width: 100%;
+  display: flex;
+}
+
+/* ===== Product grid fixes (iPad Air, AirPods, Watch, MacBook Air, iMac, Trade-in) ===== */
+.c1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;   /* two equal columns per row */
+  gap: 7px;                          /* same gap horizontally and vertically */
+  margin-top: 7px;
   width: 100%;
   height: auto;
-  }
-  /* image 1 and image 2*/
-  .d1 {
-    position: relative;
-    height:auto;
-    width: auto;
-    background-size: cover;
-    cursor: pointer;
-  }
-  .d2{
-    position: relative;
-    margin-top: 7px;
-    height:auto;
-    width: auto;
-    background-size: cover;
-  }
-  .buttons{
-    position:absolute;
-    bottom: 15%; 
-    left: 50%; 
-    transform: translateX(-50%); 
-    display: flex;
-    gap: 12px; 
-  }
-  .b {
-    padding: 10px 20px;
-    font-size: 17px;
-    background-color: rgb(20, 121, 222);
-    border-color: transparent;
-    color: white;
-    border-radius: 30px;
-    cursor: pointer;
-  }
-  .b1 {
-    background-color: transparent;
-    color: rgb(20, 121, 222);
-    border-color: rgb(20, 121, 222);
-    border-radius: 30px;
-    padding: 10px 20px;
-    font-size: 17px;
-    font-weight:normal;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    border-width:1px;
-  }
-  .b1:hover {
-    background-color: rgb(20, 121, 222);
-    color: white;
-  }
-  /* image 1 and image 2 buttons */
-  .d3{
-    margin-top: 7px;
-    height:auto;
-    width: auto;
-    background-size: cover;
-  }
-  .c1{
-    margin-top: 7px;
-    display: flex;
-    width: 100%;
-    height: 100%;
-  }
-  /* image4 */
-  .d4{
-    position: relative;
-    margin-left:10px ;
-    height:auto;
-    width: auto;
-    background-size: cover;
-  }
-  .buttons1{
-    position:absolute;
-    bottom: 70%; 
-    left: 50%; 
-    transform: translateX(-50%); 
-    display: flex;
-    gap: 12px;
-    height: 5px; 
-  }
-  .b2{
-    padding: 7px 10px;
-    font-size: 15px;
-    background-color: rgb(20, 121, 222);
-    border-color: transparent;
-    color: white;
-    border-radius: 30px;
-    cursor: pointer;
-    margin: auto;
-  }
-  .b3{
-    background-color: transparent;
-    color: rgb(20, 121, 222);
-    border-color: rgb(20, 121, 222);
-    border-radius: 30px;
-    padding: 7px 14px;
-    font-size: 15px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    border-width:1px;
-    margin: auto;
-  }
-  .b3:hover {
-    background-color: rgb(20, 121, 222);
-    color: white;
-  }
-  /* image4*/
-  /* image5 */
-  .d5{
-    position: relative;
-    margin-left:10px ;
-    height:auto;
-    width: auto;
-    background-size: cover;
-  }
-  .buttons2{
-    position:absolute;
-    bottom: 13%; 
-    left: 50%; 
-    transform: translateX(-50%); 
-    display: flex;
-    gap: 12px;
-    height: 5px; 
-  }
-  .b4{
-    padding: 7px 10px;
-    font-size: 15px;
-    background-color: rgb(20, 121, 222);
-    border-color: transparent;
-    color: white;
-    border-radius: 30px;
-    cursor: pointer;
-    margin: auto;
-  }
-  .b5{
-    background-color: transparent;
-    color: rgb(20, 121, 222);
-    border-color: rgb(20, 121, 222);
-    border-radius: 30px;
-    padding: 7px 14px;
-    font-size: 15px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    border-width:1px;
-    margin: auto;
-  }
-  .b5:hover {
-    background-color: rgb(20, 121, 222);
-    color: white;
-  }
-  /* image5 */
-  /* image6 and image7 */
-  .d6{
-    position: relative;
-    margin-left:10px ;
-    height:auto;
-    width: auto;
-    background-size: cover;
-  }
-  .d7{
-    position: relative;
-    margin-left:10px ;
-    height:auto;
-    width: auto;
-    background-size: cover;
-  }
-  .buttons3{
-    position:absolute;
-    bottom: 72%; 
-    left: 50%; 
-    transform: translateX(-50%); 
-    display: flex;
-    gap: 12px;
-    height: 5px; 
-  }
-  .b6{
-    padding: 7px 10px;
-    font-size: 15px;
-    background-color: rgb(20, 121, 222);
-    border-color: transparent;
-    color: white;
-    border-radius: 30px;
-    cursor: pointer;
-    margin: auto;
-  }
-  .b7{
-    background-color: transparent;
-    color: rgb(20, 121, 222);
-    border-color: rgb(20, 121, 222);
-    border-radius: 30px;
-    padding: 7px 14px;
-    font-size: 15px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    border-width:1px;
-    margin: auto;
-  }
-  .b7:hover {
-    background-color: rgb(20, 121, 222);
-    color: white;
-  }
-  .d8{
-    position: relative;
-  margin-left:10px ;
-  height:auto;
-  width: auto;
-  background-size: cover;
-  }
-  /* image6 and image7 and image8*/
-  .d9{
-  margin-left:10px ;
-  height:auto;
-  width: auto;
-  background-size: cover;
-  }
-  .para1{
-    background-color:whitesmoke;
-    font-size: small ;
-    color: gray;
-    text-align: left;
-    padding: 50px 200px 200px;
-    line-height: 15px;
-    margin-bottom: 0px;
-  }
-  .footer-container {
-    
-    background-color: whitesmoke;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 20px;
-    padding-left: 200px;
-    padding-right: 100px;
-  }
-  .footer-column {
-    flex: 1;
-    min-width: 180px;
-  }
-  .footer-column h3 {
-    font-size: 16px;
-    margin-bottom: 10px;
-    color: #333;
-  }
-  .footer-column ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  .footer-column ul li {
-    margin-bottom: 5px;
-  }
-  .footer-column ul li a {
-    text-decoration: none;
-    color: #837c7c;
-    font-size: 14px;
-  }
-  .footer-column ul li a:hover {
-    text-decoration: underline;
-  }
-  .footer-bottom {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 12px;
-    color: #666;
-  }
-  .footer-bottom p {
-    margin: 5px 0;
-  }
-  .footer-bottom a {
-    text-decoration: none;
-    color: #0066cc;
-  }
-  .footer-bottom a:hover {
-    text-decoration: underline;
-  }
-  .carousel{
-    margin-top: 10px;
-    padding: 0px 50px 0px 50px;
-  }
-  
-  
-  
-  
-  
-  
-  
-  
-  /* Only one page visible at a time (controlled by display() in the HTML) */
-  #section2 {
-    display: none;
-  }
-  
-  
-  .head2 {
-    top: 0px;
-    background-color: rgba(0, 0, 0, 1);
-  }
-  
-  .navbar {
-  
-    background-color: rgba(0, 0, 0, 1);
-  
-  }
-  
-  .anc {
-    color: #fff;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    text-align: center;
-    font-size: small;
-    font-weight: 100;
-  }
-  
-  
-  .bii {
-    margin-bottom: 4px;
-  }
-  
-  .ancl {
-    /* apple icon */
-    padding-left: 20%;
-  
-    color: #fff;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    text-align: center;
-    font-size: small;
-    font-weight: 100;
-  }
-  
-  .ancr {
-    /* bag-fill icon */
-    padding-right: 20%;
-  
-    color: #fff;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    text-align: center;
-    font-size: small;
-    font-weight: 100;
-  
-  }
-  
-  .div1 {
-    background-color: rgb(31, 30, 30);
-    height: 42px;
-  }
-  
-  .para12 {
-    /* text-align: center; */
-    /* color: #fbfbfd; */
-    padding-top: 8px;
-  
-    color: whitesmoke;
-    background-color: rgb(31, 30, 30);
-    text-align: center;
-    font-size: small;
-    margin-bottom: 0px;
-    font-weight: 600;
-  
-  }
-  
-  .i1 {
-    background-image: url(hero16pro.jpg);
-    height: 100vh;
-    width: 100%;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: end;
-    padding-bottom: 10vh;
-  }
-  
-  .btn1 {
-    height: 40px;
-    width: 60px;
-    border-radius: 40px;
-    background-color: rgb(20, 121, 222);
-    border: transparent;
-    color: #fff;
-    /* margin-left: 102vh; */
-    /* margin-top: 83vh; */
-    padding: 10px;
-  
-  }
-  
-  .i2 {
-    height: 10vh;
-    width: 100%;
-    background-color: black;
-  }
-  
-  .i3 {
-    height: 30vh;
-    width: 100%;
-    background-color: rgb(31, 30, 30);
-    display: flex;
-    /* justify-content: end; */
-  }
-  
-  .i3 h1 {
-    color: #fff;
-    font-size: 8vh;
-    padding-left: 10vh;
-    padding-top: 10vh;
-  }
-  
-  .i3 a {
-    padding-left: 80vh;
-    padding-top: 13vh;
-    font-size: 20px;
-    /* justify-content: end; */
-  }
-  
-  .bi{
-    margin-left: 4px;
-  }
-  
-  .i4 {
-    height: 135vh;
-    width: 100%;
-    background-color: rgb(31, 30, 30);
-    margin-top: -10px;
-  }
-  
-  #carouselExampleCaptions {
-  
-    padding-top: 30px;
-    padding-left: 70px;
-    padding-right: 70px;
-    padding-bottom: 40px;
-    /* object-fit: cover; */
-  
-  }
-  
-  .d-block1{
-    
-    border-radius: 15vh;
-  }
-  .i5 {
-    height: 140vh;
-    width: 100%;
-    background-color: black;
-  }
-  
-  .i5 h1 {
-    color: #fff;
-    font-size: 8vh;
-    padding-left: 10vh;
-    padding-top: 10vh;
-  }
-  
-  .ip {
-    width: 300px;
-    height: 500px;
-    margin-top: 8%;
-    margin: auto;
-  
-  }
-  
-  .i5 p {
-    font-size: x-small;
-    color: #fff;
-    text-align: center;
-    padding-top: 15px;
-  }
-  
-  .i6{
-    display: flex;
-    justify-content: center;
-    margin-left: 80vh;
-    margin-right: 80vh;
-  }
-  .i6b1{
-  border-radius: 30px;
-  height: 50px;
-  width: 155px;
+  align-items: stretch;
+}
+.c1 > a {
+  display: block;
+  min-width: 0;
+}
+.d4, .d5, .d6, .d7, .d8, .d9 {
+  position: relative;
+  margin: 0;                         /* remove the uneven 10px left margins */
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.c1 img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;                 /* all images fill their card equally */
+}
+
+/* Buttons: centred on a fixed % from the top of the card (was bottom % + 5px height hack) */
+.buttons1, .buttons2, .buttons3 {
+  position: absolute;
+  left: 50%;
+  height: auto;
+  transform: translate(-50%, -50%);
   display: flex;
-  margin: auto;
-  background-color: rgb(31, 30, 30);
-  }
-  
-  
-  .i6b2{
-  width: 155px;
-  border-radius: 30px;
-  height: 50px;
-  /* display: flex; */
-  /* margin: auto; */
-  background-color:#fff;
-  border: transparent;
-  color: #2b2a2a;
-  padding: auto;
-  padding-bottom: 5px;
-  }
-  
-  
-  .i7{
-    height: 10vh;
-    width: 100%;
-    background-color: black;
-    display: flex;
-    justify-content: center;
-  }
-  .i7 h1{
-    font-size: 60px;
-    color: beige;
-    font-weight: 700;
-  }
-  
-  .i8{
-    height: 10vh;
-    width: 100%;
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    /* padding-top: 10px; */
-  }
-  
-  .i8 h1{
-    
-    font-size: 60px;
-    font-weight: 700;
-    letter-spacing: -2px;
-    /* color: rgb(245, 224, 205); */
-    border-color: rgb(213, 135, 75);
-    /* border: 2px; */
-    filter: drop-shadow(0px 5px 20px rgb(248, 156, 128));
-    /* text-shadow: 0px 10px 25px rgb(213, 135, 75); */
-    text-shadow:0px 0px 12px  rgb(245, 162, 137) ;
-  }
-  
-  .i9{
-    background-color: black;
-    height: 100vh;
-    width: 100%;
-  }
-  
-  .i9 img{
-    margin-top: 10vh;
-    height: 90% ;
-    width: 100%;
-  }
-  
-  .i10{
-    background-color: black;
-    min-height: 100vh;
-    width: 100%;
-    display: flex;
-  }
-  
-  .i10p1{
-    text-align: left;
-    padding-top: 30vh;
-    padding-left: 45vh ;
-    padding-right:15vh ;
-    font-weight: 700;
-    color: gray;
-  }
-  
-  h5 a{
-    color: #fff;
-  }
-  
-  .i10p2{
-    text-align: right;
-    padding-top: 30vh;
-    padding-left: 15vh ;
-    padding-right:45vh ;
-    font-weight: 700;
-    color: grey;
-  }
-  
-  .i10p3{
-    text-align: left;
-    /* padding-top: 30vh; */
-    padding-left: 45vh ;
-    padding-right:15vh ;
-    font-weight: 700;
-    color: gray;
-  }
-  
-  .i10p4{
-    text-align: right;
-    /* padding-top: 30vh; */
-    padding-left: 15vh ;
-    padding-right:45vh ;
-    font-weight: 700;
-    color: grey;
-  }
-  
-  .i11{
-    height: 100vh;
-    width: 100%;
-    background-color: black;
-  }
-  /* corousel */
-  .container{
-    width: 550px;
-    min-height: 10vh;
-    margin: auto;
-    filter: drop-shadow(0px 0px 130px rgba(247, 200, 186, 0.4));
-  }
-  
-  .container-d{ 
-    display: grid;
-    grid-auto-flow: column;
-    scroll-behavior: auto;
-    gap: 1.2rem;
-    overflow-y: auto;
-    /* overscroll-behavior-x: contain ; */
-    scroll-snap-type: x mandatory;
-    /* scrollbar-width: none; */
-  
-    
-  }
-  
-  .container-d::-webkit-scrollbar{
-    display: none;
-  }
-  .carousel1{
-    scroll-snap-align: start;
-    box-sizing: border-box;
-    height: 70vh;
-    width: 60vh;
-    background-color: transparent;
-    color: rgb(188, 135, 102);
-  
-    /* box-shadow: 0px 0px 5px rgb(230, 80, 80); */
-    border-radius: 20px;
-    /* margin: 10px; */
-    /* scroll-behavior: auto; */
-  }
-  
-  article h6{
-    text-align: left;
-    margin-left: 25px;
-    margin-right: 80px;
-    margin-top: 10px;
-  }
-  .image5{
-    border-radius: 40px;
-  }
-  
-  
-  .i12{
-    background-color: black;
-    height: 55vh;
-    width: 100%;
-    display: flex;
-  }
-  
-  /* ===== Product grid fixes (iPad Air, AirPods, Watch, MacBook Air, iMac, Trade-in) ===== */
-  .c1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;   /* two equal columns per row */
-    gap: 7px;                          /* same gap horizontally and vertically */
-    margin-top: 7px;
-    width: 100%;
-    height: auto;
-    align-items: stretch;
-  }
-  .c1 > a {
-    display: block;
-    min-width: 0;
-  }
-  .d4, .d5, .d6, .d7, .d8, .d9 {
-    position: relative;
-    margin: 0;                         /* remove the uneven 10px left margins */
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-  }
-  .c1 img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;                 /* all images fill their card equally */
-  }
-  
-  /* Buttons: centred on a fixed % from the top of the card (was bottom % + 5px height hack) */
-  .buttons1, .buttons2, .buttons3 {
-    position: absolute;
-    left: 50%;
-    height: auto;
-    transform: translate(-50%, -50%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    white-space: nowrap;
-    z-index: 2;
-  }
-  .buttons1 { top: 30%; bottom: auto; }   /* iPad Air   */
-  .buttons2 { top: 87%; bottom: auto; }   /* AirPods    */
-  .buttons3 { top: 28%; bottom: auto; }   /* Watch, MacBook Air, iMac */
-  
-  .b2, .b3, .b4, .b5, .b6, .b7 {
-    margin: 0;
-    line-height: 1.2;
-    padding: 7px 14px;
-    font-size: clamp(11px, 1.15vw, 15px);
-  }
-  
-  @media (max-width: 600px) {
-    .c1 { gap: 5px; }
-    .buttons1, .buttons2, .buttons3 { gap: 5px; }
-    .b2, .b3, .b4, .b5, .b6, .b7 { padding: 4px 8px; font-size: 10px; }
-  }
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  white-space: nowrap;
+  z-index: 2;
+}
+.buttons1 { top: 30%; bottom: auto; }   /* iPad Air   */
+.buttons2 { top: 87%; bottom: auto; }   /* AirPods    */
+.buttons3 { top: 28%; bottom: auto; }   /* Watch, MacBook Air, iMac */
+
+.b2, .b3, .b4, .b5, .b6, .b7 {
+  margin: 0;
+  line-height: 1.2;
+  padding: 7px 14px;
+  font-size: clamp(11px, 1.15vw, 15px);
+}
+
+@media (max-width: 600px) {
+  .c1 { gap: 5px; }
+  .buttons1, .buttons2, .buttons3 { gap: 5px; }
+  .b2, .b3, .b4, .b5, .b6, .b7 { padding: 4px 8px; font-size: 10px; }
+}
